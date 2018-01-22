@@ -1,6 +1,6 @@
 # Machine Epsilon
 
-**Function Name:** calcMachineEpsilon
+**Function Name:** calcMachEps
 
 **Author:** Andrew Shaw
 
@@ -14,7 +14,7 @@
 
 **Usage/Example:** This function is called and the results displayed as follows:
 ~~~~
-cout << "Machine Epsilon: " << calcMachineEpsilon() << endl;
+cout << "Machine Epsilon: " << calcMachEps() << endl;
 ~~~~
 Sample output (results may vary on different computers):
 ~~~~
@@ -24,7 +24,7 @@ This shows that approximately 16 decimal digits may be represented.
 
 **Implementation/Code:** The following shows the code for calcMachineEpsilon():
 ~~~~
-double calcMachineEpsilon()
+double calcMachEps()
 {
 	double epsilon = 1.0; //initial epsilon
 
