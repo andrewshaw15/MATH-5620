@@ -1,6 +1,6 @@
 # Absolute Error
 
-**Function Name:** calcAbsError
+**Function Name:** calcAbsErr
 
 **Author:** Andrew Shaw
 
@@ -20,7 +20,7 @@ For instance, if the values inputted were 4 and 3.5, the function would return
 ~~~~
 Absolute Error: 0.5
 ~~~~
-**Implementation/Code:** Below is the code for calcAbsError():
+**Implementation/Code:** Below is the code for calcAbsErr():
 ~~~~
 double calcAbsErr(double real, double approx)
 {
