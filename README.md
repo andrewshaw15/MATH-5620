@@ -1,6 +1,6 @@
-# Andrew Shaw's GitHub Page
+# Andrew Shaw's Software Manual
 
-This GitHub page is for MATH 5620 - Numerical Solutions of Differential Equations. During the semester, links will be added to software manual entries for solving differential equations.
+This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equations. During the semester, links will be added to software manual entries for solving differential equations.
 
 ## Table of Contents
 
