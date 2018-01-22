@@ -6,7 +6,7 @@ This GitHub page is for MATH 5620 - Numerical Solutions of Differential Equation
 
 1. Basic Routines
     * [Machine Epsilon](https://andrewshaw15.github.io/MATH-5620/HW-1/machine-epsilon)
-    * Absolute Error
+    * [Absolute Error](https://andrewshaw15.github.io/MATH-5620/HW-1/absolute-error)
     * Relative Error
 2. Elliptic Problem Routines
 3. Parabolic Problem Routines
