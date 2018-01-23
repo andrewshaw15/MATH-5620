@@ -52,4 +52,4 @@ double calcY(double m, double c, double k, double y0, double v0, double t)
 	}
 }
 ~~~~
-**Last Modified:** 22 Jan 18
+**Last Modified:** 23 Jan 18
