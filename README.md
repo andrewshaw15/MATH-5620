@@ -13,5 +13,5 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
 4. Hyperbolic Problem Routines
 5. Test Problems
     * [Logistic Differential Equation](https://andrewshaw15.github.io/MATH-5620/HW-1/logistic-DE-test)
-    * [Spring-Mass-Damper System](https://andrewshaw15.github.io/MATH-5620/HW-1/spring-mass-damper-test)
+    * [Spring-Mass-Damper System](https://andrewshaw15.github.io/MATH-5620/HW-1/vibration-test)
 6. Appendix
