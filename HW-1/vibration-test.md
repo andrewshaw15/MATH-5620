@@ -1,4 +1,4 @@
-# Spring-Mass-Damper Test
+# Vibration Test
 
 **Function Name:** calcY
 
