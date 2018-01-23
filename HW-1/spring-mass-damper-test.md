@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Description/Purpose:** This function determines the analytical solution of the equation *my" + cy' + ky = 0*. This function will be used as a standard when methods of estimating integrals numerically are explored.
+**Description/Purpose:** This function determines the analytical solution of the equation *my" + cy' + ky = f(t)* when *f(t)* = 0. This function will be used as a standard when methods of estimating integrals numerically are explored.
 
 **Input:** This function requires six input values: *m*, *c*, *k*, *y(0)*, *v(0)*, and *t*. The value *m* may represent the mass of the spring-mass-damper system, *c* the damping coefficient, *k* the spring constant, *y(0)* the initial position, *v(0)* the initial velocity, and *t* the time at which the position *y* is desired to be known.
 
