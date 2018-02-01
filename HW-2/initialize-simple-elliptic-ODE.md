@@ -1,4 +1,4 @@
-# Initialize Elliptic ODE
+# Initialize Simple Elliptic ODE
 
 **Function Name:** initF
 
