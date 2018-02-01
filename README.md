@@ -26,6 +26,6 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
 5. Test Problems
     * [Logistic Differential Equation](https://andrewshaw15.github.io/MATH-5620/HW-1/logistic-DE-test)
     * [Spring-Mass-Damper System](https://andrewshaw15.github.io/MATH-5620/HW-1/spring-mass-damper-test)
-    * Simple Elliptic ODE
-    * Full Elliptic ODE
+    * [Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/simple-elliptic-ODE)
+    * [Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/full-elliptic-ODE)
 6. Appendix
