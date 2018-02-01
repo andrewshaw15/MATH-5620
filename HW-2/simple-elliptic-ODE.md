@@ -16,14 +16,9 @@
 
 **Implementation/Code:**
 ~~~~
-void calcSimpleEllipticODE()
+void calcSimpleEllipticODE(int n)
 {
 	const double PI = 3.14159265;
-	int n; //number of points
-
-	cout << "Enter the number of discrete points:" << endl;
-	cin >> n;
-	cout << endl;
 
 	vector<vector<double>> A(n, vector<double>(n, 0)); //A matrix
 
