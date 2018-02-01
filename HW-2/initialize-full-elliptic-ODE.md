@@ -1,4 +1,4 @@
-# Full Elliptic ODE
+# Initialize Full Elliptic ODE
 
 **Function Name:** initA
 
