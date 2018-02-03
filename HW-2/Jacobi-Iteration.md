@@ -6,17 +6,17 @@
 
 **Language:** C++14
 
-**Description/Purpose:**
+**Description/Purpose:** This function finds the solution of the simple elliptic ODE *u" = f(x)* by using Jacobi Iteration. The original equation must be transformed into *AU = F* before implementing this function.
 
-**Input:**
+**Input:** This function takes as input the modified right hand vector *F* and its size *n*.
 
-**Output:**
+**Output:** This function returns a vector representing the solution of the simple elliptic ODE.
 
 **Usage/Example:**
 
 **Implementation/Code:**
 ~~~~
-vector<double> jacobiIteration(int n, vector<double> F)
+vector<double> jacobiIteration(vector<double> F, int n)
 {
 	vector<double> U(n, 1); //solution with initial guess of 1
 	vector<vector<double>> A(n, vector<double>(n, 0)); //A matrix
@@ -89,4 +89,4 @@ vector<double> jacobiIteration(int n, vector<double> F)
 	return U;
 }
 ~~~~
-**Last Modified:** 30 Jan 18
+**Last Modified:** 3 Feb 18
