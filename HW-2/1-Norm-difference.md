@@ -6,15 +6,17 @@
 
 **Language:** C++14
 
-**Description/Purpose:**
+**Description/Purpose:** This function is used to compute the 1 norm of the difference of two vectors. This is especially useful when computing the 1 norm of the error vector.
 
-**Input:**
+**Input:** This function takes as input the two vectors whose 1 norm of their difference is to be computed, the step size between each of the individual vector elements *h*, and the size of the vectors *n*.
 
-**Output:**
+**Output:** This function returns the 1 norm of the difference of the two inputted vectors.
 
-**Usage/Example:**
-
-**Implementation/Code:**
+**Usage/Example:** This code may be executed and the 1 norm of the vector difference displayed as follows:
+~~~~
+cout << calc1NormDiff(approx, real, h, n) << endl;
+~~~~
+**Implementation/Code:** The following is the code for calc1NormDiff():
 ~~~~
 double calc1NormDiff(vector<double> approx, vector<double> real, double h, int n)
 {
