@@ -6,15 +6,17 @@
 
 **Language:** C++14
 
-**Description/Purpose:**
+**Description/Purpose:** This function calculates the 1 norm of a vector.
 
-**Input:**
+**Input:** The values that must be inputted into this function are the vector *v*, the step size between each vector element *h*, and the size of the vector *n*.
 
-**Output:**
+**Output:** This function returns the 1 norm of the vector.
 
-**Usage/Example:**
-
-**Implementation/Code:**
+**Usage/Example:** This function may be called and its results displayed as follows:
+~~~~
+cout << calc1Norm(v, h, n) << endl;
+~~~~
+**Implementation/Code:** The following is the code for calc1Norm():
 ~~~~
 double calc1Norm(vector<double> v, double h, int n)
 {
@@ -30,4 +32,4 @@ double calc1Norm(vector<double> v, double h, int n)
 	return one_norm;
 }
 ~~~~
-**Last Modified:** 30 Jan 18
+**Last Modified:** 3 Feb 18
