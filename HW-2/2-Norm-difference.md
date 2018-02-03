@@ -6,15 +6,17 @@
 
 **Language:** C++14
 
-**Purpose/Description:**
+**Purpose/Description:** This function calculates the 2 norm of the difference of two vectors. This is especially useful in calculating the 2 norm of the error vector.
 
-**Input:**
+**Input:** This function requires as input the two vectors, the step size between each vector element *h*, and the size of the vectors *n*.
 
-**Output:**
+**Output:** This function returns the 2 norm of the difference of the two vectors.
 
-**Usage/Example:**
-
-**Implementation/Code:**
+**Usage/Example:** This function may be called and its result displayed as follows:
+~~~~
+cout << calc2NormDiff(approx, real, h, n) << endl;
+~~~~
+**Implementation/Code:** The following is the code for calc2NormDiff():
 ~~~~
 double calc2NormDiff(vector<double> approx, vector<double> real, double h, int n)
 {
@@ -34,4 +36,4 @@ double calc2NormDiff(vector<double> approx, vector<double> real, double h, int n
 	return two_norm;
 }
 ~~~~
-**Last Modified:** 30 Jan 18
+**Last Modified:** 3 Feb 18
