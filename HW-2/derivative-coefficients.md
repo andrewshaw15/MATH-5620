@@ -6,19 +6,34 @@
 
 **Language:** C++14
 
-**Description/Purpose:**
+**Description/Purpose:** This function calculates the coefficients for finite difference approximations of the *k*th derivative of a function *u(x)* evaluated at a value *xBar*.
 
-**Input:**
+**Input:** This function requires as input the derivative to be approximated *k*, the value *xBar* at which this derivative is to be evaluated, the vector of *x* values, and the size *n* of the vector *x*.
 
-**Output:**
+**Output:** This function returns a vector representing the coefficients for the finite difference approximation.
 
-**Usage/Example:**
+**Usage/Example:** The function may be called and the coefficient vector displayed as follows:
+~~~~
+vector<double> c = calcCoeff(k, xBar, x, n);
 
+cout << "The coefficients are:" << endl;
+for (int i = 0; i < n; i++)
+{
+	cout << "C" << i << " = " << c[i] << endl;
+}
+~~~~
+For example, if *k* = 1, *xBar* = 2, the contents of *x* are <2, 1, 0>, and *n* = 3, the result would be:
+~~~~
+The coefficients are:
+C0 = 1.5
+C1 = -2
+C2 = 0.5
+~~~~
 **Implementation/Code:**
 ~~~~
 vector<double> calcCoeff(int k, double xBar, vector<double> x, int n)
 {
-	vector<vector<double>> A(n, vector<double>(n, 1));
+	vector<vector<double>> A(n, vector<double>(n, 1)); //matrix A
 
 	vector<double> xRow(n); //displacements
 
@@ -31,7 +46,7 @@ vector<double> calcCoeff(int k, double xBar, vector<double> x, int n)
 	{
 		for (int j = 0; j < n; j++)
 		{
-			A[i][j] = pow(xRow[j], i - 1) / calcFac(i - 1);
+			A[i][j] = pow(xRow[j], i) / calcFac(i);
 		}
 	}
 
@@ -100,4 +115,4 @@ double calcFac(double i) //helper function to calculate factorial
 	return (i * calcFac(i - 1.));
 }
 ~~~~
-**Last Modified:** 30 Jan 18
+**Last Modified:** 3 Feb 18
