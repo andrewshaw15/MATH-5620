@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Description/Purpose:** This function uses the Thomas Algorithm to solve the equation *AU = F* derived from either the simple elliptic ODE (refer to [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/initialize-simple-elliptic-ODE) for *F* initialization) or from the full elliptic ODE (refer to [Initialize Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/initialize-full-elliptic-ODE) for *F* and *A* initializations).
+**Description/Purpose:** This function uses the Thomas Algorithm to solve the equation *AU = F* derived from either the simple elliptic ODE (refer to [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-simple-elliptic-ODE) for *F* initialization) or from the full elliptic ODE (refer to [Initialize Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-full-elliptic-ODE) for *F* and *A* initializations).
 
 **Input:** This function takes as input the matrix *A*, the vector *F*, and their size *n*.
 
