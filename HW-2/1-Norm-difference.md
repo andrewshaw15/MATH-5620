@@ -8,7 +8,7 @@
 
 **Description/Purpose:** This function is used to compute the 1 norm of the difference of two vectors. This is especially useful when computing the 1 norm of the error vector.
 
-**Input:** This function takes as input the two vectors whose 1 norm of their difference is to be computed (here called *approx* and *real* for ease in computing the error vector 1 norm), the step size between each of the individual vector elements *h*, and the size of the vectors *n*.
+**Input:** This function takes as input the two vectors whose 1 norm of their difference is to be computed (here called *approx* and *real* for ease in computing the error vector 1 norm), the step size between each of the individual vector elements *h*, and the size *n* of the vectors.
 
 **Output:** This function returns the 1 norm of the difference of the two inputted vectors.
 
