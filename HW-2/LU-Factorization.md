@@ -6,35 +6,34 @@
 
 **Language:** C++14
 
-**Description/Purpose:**
+**Description/Purpose:** This function uses LU Factorization to solve *AU = F* derived from the either the simple elliptic ODE (refer to [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-simple-elliptic-ODE) for *F* initialization) or from the full elliptic ODE (refer to [Initialize Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-full-elliptic-ODE) for *F* and *A* initialization).
 
-**Input:**
+**Input:** This function requires for input the matrix *A*, the vector *F*, and their size *n*.
 
-**Output:**
+**Output:** This function outputs a vector representing the solution.
 
-**Usage/Example:**
+**Usage/Example:** This function may be called and its results displayed as follows:
+~~~~
+vector<double> U = LUFactorization(n, F, A);
 
+cout << "The solution is:" << endl;
+for (int i = 0; i < n; i++)
+{
+	cout << "U[" << i + 1 << "] = " << U[i] << endl;
+}
+~~~~
+For example, if *n* = 3, the contents of *F* are <1.5625, 3.125, 3.6875>, and the elements of *A* are -2 on the diagonal, 1 on the off-diagonals, and 0 elsewhere the function will display:
+~~~~
+The solution is:
+U[1] = -3.65625
+U[2] = -5.75
+U[3] = -4.71875
+~~~~
 **Implementation/Code:**
 ~~~~
-vector<double> LUFactorization(int n, vector<double> F)
+vector<double> LUFactorization(int n, vector<double> F, vector<vector<double>> A)
 {
 	vector<double> U(n); //solution
-	vector<vector<double>> A(n, vector<double>(n)); //A matrix
-	
-	for (int i = 0; i < n; i++) //initialize A matrix
-	{
-		for (int j = 0; j < n; j++)
-		{
-			if (i == j) //diagonal terms
-			{
-				A[i][j] = -2.;
-			}
-			else if (abs(i - j) == 1) //terms next to diagonals
-			{
-				A[i][j] = 1.;
-			}
-		}
-	}
 
 	//decompose A matrix
 	for (int i = 0; i < n - 1; i++)
@@ -85,4 +84,4 @@ vector<double> LUFactorization(int n, vector<double> F)
 	return U;
 }
 ~~~~
-**Last Modified:** 30 Jan 18
+**Last Modified:** 6 Feb 18
