@@ -6,20 +6,37 @@
 
 **Language:** C++14
 
-**Purpose/Description:**
+**Purpose/Description:** This function solves the simple elliptic ODE *u" = f(x)* on the interval 0 *< x <* 1 with *u(0)* = 2.5, *u(1)* = 5.0, and *f(x) = sin(&pi;x)* using the Thomas Algorithm (refer to [Thomas Algorithm](https://andrewshaw15.github.io/MATH-5620/HW-2/thomas-algorithm)), LU Factorization (refer to [LU Factorization](https://andrewshaw15.github.io/MATH-5620/HW-2/LU-Factorization)), and Jacobi Iteration (refer to [Jacobi Iteration](https://andrewshaw15.github.io/MATH-5620/HW-2/Jacobi-Iteration)). See [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-simple-elliptic-ODE) for transforming *u" = f(x)* to *AU = F*.
 
-**Input:**
+**Input:** This function takes as input the size *n* of *f* (the number of stencil points).
 
-**Output:**
+**Output:** This function displays three vectors representing the solutions obtained via the three methods described above.
 
-**Usage/Example:**
+**Usage/Example:** This code may be called and its results displayed as follows:
+~~~~
+calcSimpleEllipticODE(n);
+~~~~
+For example, if *n* = 3, the function outputs:
+~~~~
+Thomas Algorithm Solution:
+U(1) = 3.04956
+U(2) = 3.64331
+U(3) = 4.29956
 
+LU Factorization Solution:
+U(1) = 3.04956
+U(2) = 3.64331
+U(3) = 4.29956
+
+Jacobi Iteration Solution:
+U(1) = 3.0315
+U(2) = 3.62525
+U(3) = 4.29053
+~~~~
 **Implementation/Code:**
 ~~~~
 void calcSimpleEllipticODE(int n)
 {
-	const double PI = 3.14159265;
-
 	vector<vector<double>> A(n, vector<double>(n, 0)); //A matrix
 
 	//initialize A
@@ -81,4 +98,4 @@ void calcSimpleEllipticODE(int n)
 	cout << endl;
 }
 ~~~~
-**Last Modified:** 1 Feb 18
+**Last Modified:** 6 Feb 18
