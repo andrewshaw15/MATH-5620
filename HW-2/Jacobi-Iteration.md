@@ -31,57 +31,39 @@ U[3] = -4.70099
 ~~~~
 **Implementation/Code:**
 ~~~~
-vector<double> jacobiIteration(vector<double> F, int n, vector<vector<double>> A)
+vector<double> jacobiIteration(int n, vector<double> F, vector<vector<double>> A)
 {
+	vector<double> temp(n); //temporary vector to help with math
+
 	vector<double> U(n, 1); //solution with initial guess of 1
 
-	vector<double> U_old(n, 1.); //vector to store old values
-	vector<double> relErr(n, 1.); //vector of relative errors
+	int numIterations = 1;
+
+	line:
 
 	for (int i = 0; i < n; i++)
 	{
-		U[i] = F[i];
+		temp[i] = F[i];
 
 		for (int j = 0; j < n; j++)
 		{
 			if (i != j)
 			{
-				U[i] -= A[i][j] * U[j];
+				temp[i] -= A[i][j] * U[j];
 			}
 		}
-
-		U[i] /= A[i][i];
-
-		relErr[i] = ((U[i] - U_old[i]) / U[i]) * 100.;
-
-		U_old[i] = U[i]; //update old values
 	}
 
-	int numIterations = 1;
-
-	//iterate until max relative error is less than 1% or # iterations exceeds 1000
-	while (*max_element(relErr.begin(), relErr.end()) >= 1. && numIterations < 1000)
+	for (int i = 0; i < n; i++)
 	{
-		for (int i = 0; i < n; i++)
-		{
-			U[i] = F[i];
+		U[i] = temp[i] / A[i][i];
+	}
 
-			for (int j = 0; j < n; j++)
-			{
-				if (i != j)
-				{
-					U[i] -= A[i][j] * U[j];
-				}
-			}
+	numIterations++;
 
-			U[i] /= A[i][i];
-
-			relErr[i] = ((U[i] - U_old[i]) / U[i]) * 100.;
-
-			U_old[i] = U[i]; //update old values
-		}
-
-		numIterations++;
+	if (numIterations < 100)
+	{
+		goto line;
 	}
 
 	return U;
