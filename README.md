@@ -15,6 +15,8 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [1 Norm Difference](https://andrewshaw15.github.io/MATH-5620/HW-2/1-Norm-difference)
     * [2 Norm Difference](https://andrewshaw15.github.io/MATH-5620/HW-2/2-Norm-difference)
     * [Max Norm Difference](https://andrewshaw15.github.io/MATH-5620/HW-2/max-norm-difference)
+    * [Matrix 1 Norm](https://andrewshaw15.github.io/MATH-5620/HW-3/matrix-1-norm)
+    * [Matrix Max Norm](https://andrewshaw15.github.io/MATH-5620/HW-3/matrix-max-norm)
 2. Elliptic Problem Routines
     * [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-simple-elliptic-ODE)
     * [Thomas Algorithm](https://andrewshaw15.github.io/MATH-5620/HW-2/thomas-algorithm)
