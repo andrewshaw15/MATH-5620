@@ -17,6 +17,8 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [Max Norm Difference](https://andrewshaw15.github.io/MATH-5620/HW-2/max-norm-difference)
     * [Matrix 1 Norm](https://andrewshaw15.github.io/MATH-5620/HW-3/matrix-1-norm)
     * [Matrix Max Norm](https://andrewshaw15.github.io/MATH-5620/HW-3/matrix-max-norm)
+    * [Power Method](https://andrewshaw15.github.io/MATH-5620/HW-3/power-method)
+    * [Inverse Power Method](https://andrewshaw15.github.io/MATH-5620/HW-3/inverse-power-method)
 2. Elliptic Problem Routines
     * [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-simple-elliptic-ODE)
     * [Thomas Algorithm](https://andrewshaw15.github.io/MATH-5620/HW-2/thomas-algorithm)
@@ -30,4 +32,6 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [Spring-Mass-Damper System](https://andrewshaw15.github.io/MATH-5620/HW-1/spring-mass-damper-test)
     * [Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/simple-elliptic-ODE)
     * [Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/full-elliptic-ODE)
+    * [Largest Eigenvalue - Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-3/power-method-simple-elliptic-ODE)
+    * [Smallest Eigenvalue - Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-3/inverse-power-method-simple-elliptic-ODE)
 6. Appendix
