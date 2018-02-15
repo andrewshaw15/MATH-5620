@@ -18,7 +18,7 @@ cout << "The smallest eigenvalue is: " << inversePowerMethod(A, n) << endl;
 ~~~~
 For example, if *n* = 3 and *A* contains <<3.556, -1.778, 0>, <-1.778, 3.556, -1.778>, <0, -1.778, 3.556>> the function will return
 ~~~~
-The smallest eigenvalue is: 0.960128
+The smallest eigenvalue is: 1.04153
 ~~~~
 **Implementation/Code:** The following is the code for inversePowerMethod():
 ~~~~
@@ -109,6 +109,8 @@ double inversePowerMethod(vector<vector<double>> A, int n)
 
 		error = abs((lambda - lambda_old) / lambda) * 100; //update relative error
 	}
+	
+	lambda = 1 / lambda;
 
 	return lambda;
 }
