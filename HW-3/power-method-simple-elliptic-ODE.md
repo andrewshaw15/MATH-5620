@@ -61,7 +61,7 @@ double powerMethod_SimpleEllipticODE(vector<vector<double>> A, int n)
 
 	double error = abs((lambda - lambda_old) / lambda) * 100; //relative error
 
-	while (error >= 1 || iterations < 100) //while error is greater than 0.1% or max iterations reached
+	while (error >= 1 || iterations < 100) //while error is greater than 1% or max iterations reached
 	{
 		lambda_old = lambda; //update lambda
 
