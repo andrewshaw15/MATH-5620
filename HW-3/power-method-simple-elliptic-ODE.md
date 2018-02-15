@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Description/Purpose:** This function is the same as powerMethod() (see [Power Method](https://andrewshaw15.github.io/MATH-5620/HW-3/power-method)), but applied to the simple elliptic ODE *u" = f(x)*. Using the centered difference method to approximate *u"*, the matrix *A* in *AU = F* becomes the following: the diagonal terms are -2, the off-diagonal terms are 1, and all other terms are 0. As a note, the largest eigenvalues are related to the size *n* of *A* by *&lambda; = -2 - 2cos(&pi;/(n + 1))* ([Wikipedia](https://en.wikipedia.org/wiki/Tridiagonal_matrix)).
+**Description/Purpose:** This function is the same as powerMethod() (see [Power Method](https://andrewshaw15.github.io/MATH-5620/HW-3/power-method)), but applied to the simple elliptic ODE *u" = f(x)*. Using the centered difference method to approximate *u"*, the matrix *A* in *AU = F* becomes the following: the diagonal terms are -2, the off-diagonal terms are 1, and all other terms are 0. As a note, the largest eigenvalues are related to the size *n* of *A* by *&lambda; = -2 - 2cos(&pi;/(n + 1))* for a tridiagonal, Toeplitz matrix ([Wikipedia](https://en.wikipedia.org/wiki/Tridiagonal_matrix)).
 
 **Input:** This function takes as input the matrix *A* and its size *n*.
 
