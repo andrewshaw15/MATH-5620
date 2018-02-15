@@ -19,6 +19,7 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [Matrix Max Norm](https://andrewshaw15.github.io/MATH-5620/HW-3/matrix-max-norm)
     * [Power Method](https://andrewshaw15.github.io/MATH-5620/HW-3/power-method)
     * [Inverse Power Method](https://andrewshaw15.github.io/MATH-5620/HW-3/inverse-power-method)
+    * [Condition Number](https://andrewshaw15.github.io/MATH-5620/HW-3/condition-number)
 2. Elliptic Problem Routines
     * [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-simple-elliptic-ODE)
     * [Thomas Algorithm](https://andrewshaw15.github.io/MATH-5620/HW-2/thomas-algorithm)
