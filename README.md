@@ -26,6 +26,7 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [LU Factorization](https://andrewshaw15.github.io/MATH-5620/HW-2/LU-Factorization)
     * [Jacobi Iteration](https://andrewshaw15.github.io/MATH-5620/HW-2/Jacobi-Iteration)
     * [Initialize Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-full-elliptic-ODE)
+    * [Initialize Five Point Laplacian](https://andrewshaw15.github.io/MATH-5620/HW-3/initialize-five-point-laplacian)
 3. Parabolic Problem Routines
 4. Hyperbolic Problem Routines
 5. Test Problems
@@ -35,4 +36,5 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/full-elliptic-ODE)
     * [Largest Eigenvalue - Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-3/power-method-simple-elliptic-ODE)
     * [Smallest Eigenvalue - Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-3/inverse-power-method-simple-elliptic-ODE)
+    * [Five Point Laplacian](https://andrewshaw15.github.io/MATH-5620/HW-3/five-point-laplacian)
 6. Appendix
