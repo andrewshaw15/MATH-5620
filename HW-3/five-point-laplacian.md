@@ -10,7 +10,7 @@
 
 **Input:** This function takes as input four vectors representing the boundary conditions (*u_top*, *u_bottom*, *u_left*, and *u_right*) and their size *n*.
 
-**Output:** This function displays the solution of the laplace equation.
+**Output:** This function displays the solution of the Laplace equation.
 
 **Usage/Example:** This function may be called and its results displayed as follows:
 ~~~~
@@ -104,4 +104,4 @@ void fivePointLaplacian(int n, vector<double> u_top, vector<double> u_bottom, ve
 	}
 }
 ~~~~
-**Last Modified:** 20 Feb 18
+**Last Modified:** 21 Feb 18
