@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Purpose/Description:** THis function uses the explicit Euler method to solve the equation *y' = f(t,y)* with *y(t0) = y0*.
+**Purpose/Description:** This function uses the explicit Euler method to solve the equation *y' = f(t,y)* with *y(t0) = y0*. As a note, this function may be easily adapted to solve a system of *m* equations.
 
 **Input:** This function takes as input the number of time steps *n*, the initial time *t0*, the initial value *y0*, the final time *tFinal*, and a vector representing the values of *f(t,y)*.
 
@@ -36,4 +36,4 @@ double explicitEuler(int n, double t0, double y0, double tFinal, vector<double> 
 	return yFinal;
 }
 ~~~~
-**Last Modified:** 3 Mar 18
+**Last Modified:** 20 Mar 18
