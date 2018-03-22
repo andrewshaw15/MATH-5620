@@ -1,4 +1,4 @@
-# Spring-Mass-Damper Exact
+# Spring-Mass-Damper - Exact
 
 **Function Name:** calcY
 
