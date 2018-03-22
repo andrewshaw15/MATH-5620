@@ -1,4 +1,4 @@
-# Logistic Differential Equation Test
+# Logistic Differential Equation - Exact
 
 **Function Name:** calcP
 
