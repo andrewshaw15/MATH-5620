@@ -34,8 +34,19 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
 3. Parabolic Problem Routines
 4. Hyperbolic Problem Routines
 5. Test Problems
-    * [Logistic Differential Equation](https://andrewshaw15.github.io/MATH-5620/HW-1/logistic-DE-test)
-    * [Spring-Mass-Damper System](https://andrewshaw15.github.io/MATH-5620/HW-1/spring-mass-damper-test)
+    * [Simple Initial Value Problem - Exact](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-exact)
+        * [Explicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-explicit-euler)
+        * [Implicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-implicit-euler)
+        * [Runge-Kutta 2](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-RK2)
+        * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-RK4)
+        * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-PC)
+    * [Logistic Differential Equation - Exact](https://andrewshaw15.github.io/MATH-5620/HW-1/logistic-DE-exact)
+        * [Explicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-explicit-euler)
+        * [Implicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-implicit-euler)
+        * [Runge-Kutta 2](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-RK2)
+        * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-RK4)
+        * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-PC)
+    * [Spring-Mass-Damper System](https://andrewshaw15.github.io/MATH-5620/HW-1/spring-mass-damper-exact)
     * [Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/simple-elliptic-ODE)
     * [Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/full-elliptic-ODE)
     * [Largest Eigenvalue - Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-3/power-method-simple-elliptic-ODE)
