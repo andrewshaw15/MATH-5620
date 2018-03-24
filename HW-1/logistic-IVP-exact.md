@@ -1,4 +1,4 @@
-# Logistic Differential Equation - Exact
+# Logistic IVP - Exact
 
 **Function Name:** calcP
 
