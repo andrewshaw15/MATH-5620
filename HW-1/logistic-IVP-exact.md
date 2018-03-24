@@ -1,6 +1,6 @@
 # Logistic IVP - Exact
 
-**Function Name:** calcP
+**Function Name:** logisticIVP
 
 **Author:** Andrew Shaw
 
@@ -22,7 +22,7 @@ P(5) = 3.23077
 ~~~~
 **Implementation/Code:** The following illustrates the function calcP()
 ~~~~
-double calcP(double alpha, double beta, double P0, double t)
+double logisticIVP(double alpha, double beta, double P0, double t)
 {
 	return (alpha / (beta - ((beta - (alpha / P0)) * exp(-alpha * t))));
 }
