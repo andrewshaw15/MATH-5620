@@ -6,25 +6,29 @@
 
 **Language:** C++14
 
-**Description/Purpose:** This function gives the analytical solution to the logistic differential equation *P'(t) = aP - b(P^2)*. This function will be used as a standard of comparison against later functions that will find approximate solutions to the above equation.
+**Description/Purpose:** This function gives the analytical solution to the logistic differential equation *P'(t) = &gamma;P - &beta;(P^2)* at a time *t*. This function will be used as a standard of comparison against later functions that will find approximate solutions to the above equation.
 
-**Input:** This function requires four inputs: *a*, *b*, *P(0)*, and *t*, where *a* and *b* are the constant coefficients in the equation, *P(0)* is the initial condition (the value of *P* when *t* = 0), and *t* is the time at which the value of *P* is to be known.
+**Input:** This function requires four inputs: *&gamma;*, *&beta;*, *P(0)*, and *t*, where *&gamma;* and *&beta;* are the constant coefficients in the equation, *P(0)* is the initial condition (the value of *P* when *t* = 0), and *t* is the time at which the value of *P* is to be known.
 
-**Output:** This function returns the value of *P* at the specified time *t* with the inputted *a* and *b* values.
+**Output:** This function returns the value of *P* at the specified time *t* with the inputted *&gamma;* and *&beta;* values.
 
 **Usage/Example:** This function may be called and the value of *P* at time *t* displayed as follows:
 ~~~~
-cout << "P(" << t << ") = " << calcP(alpha, beta, P0, t) << endl;
+cout << "P(" << t << ") = " << logisticIVP(g, b, P0, t) << endl;
 ~~~~
-For instance, if *a* = 4.2, *b* = 1.3, *P(0)* = 2.7, and *t* = 5, the function would return
+For instance, if *&gamma;* = 0.1, *&beta;* = 0.0001, *P(0)* = 25, and *t* = 5, the function would return
 ~~~~
 P(5) = 3.23077
 ~~~~
-**Implementation/Code:** The following illustrates the function calcP()
+As another example, if *&gamma;* = 0.1, *&beta;* = 0.0001, *P(0)* = 40000, and *t* = 5, the function would return
 ~~~~
-double logisticIVP(double alpha, double beta, double P0, double t)
+P(5) = 2447.19
+~~~~
+**Implementation/Code:** The following illustrates the function logisticIVP()
+~~~~
+double logisticIVP(double g, double b, double P0, double t)
 {
-	return (alpha / (beta - ((beta - (alpha / P0)) * exp(-alpha * t))));
+	return (g / (b - ((b - (g / P0)) * exp(-g * t))));
 }
 ~~~~
-**Last Modified:** 22 Jan 18
+**Last Modified:** 24 Mar 18
