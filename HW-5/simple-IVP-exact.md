@@ -20,7 +20,7 @@ For example, if *&lambda;* = 1, *&alpha;* = 2, and *t* = 3, the function would r
 ~~~~
 u(3) = 40.1711
 ~~~~
-As another example, if *&lambda* = -1, *&alpha;* = 2, and *t* = 3, the function would return
+As another example, if *&lambda;* = -1, *&alpha;* = 2, and *t* = 3, the function would return
 ~~~~
 u(3) = 0.0995741
 ~~~~
