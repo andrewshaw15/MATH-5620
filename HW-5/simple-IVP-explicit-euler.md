@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Purpose/Description:** This function uses the explicit Euler method to solve *u' = &lambda;u* with *u(0) = &alpha;* at a specified time *t*. Compare the results to [Simple IVP - Exact](https://andrewshaw15.github.io/MATH-5620/HW-5/simpleIVP-exact).
+**Purpose/Description:** This function uses the explicit Euler method to solve *u' = &lambda;u* with *u(0) = &alpha;* at a specified time *t*. Compare the results to [Simple IVP - Exact](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-exact).
 
 **Input:** This function takes as input the number of time steps *n*, the initial value *&alpha;*, the constant coefficient *&lambda;*, and the time *t*.
 
