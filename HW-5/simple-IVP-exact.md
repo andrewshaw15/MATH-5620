@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Description/Purpose:** This function calculates the exact solution of the equation *u' = &lambda;u* with the initial condition *u(0) = &alpha;* at a specific time *t*. This function is used as a standard for functions that approximate the solution
+**Description/Purpose:** This function calculates the exact solution of the equation *u' = &lambda;u* with the initial condition *u(0) = &alpha;* at a specific time *t*. This function is used as a standard for functions that approximate the solution.
 
 **Input:** This function takes as input the coefficient *&lambda;*, the initial condition *&alpha;*, and the time *t*.
 
