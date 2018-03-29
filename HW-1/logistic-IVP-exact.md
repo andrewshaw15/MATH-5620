@@ -18,7 +18,7 @@ cout << "P(" << t << ") = " << logisticIVP(g, b, P0, t) << endl;
 ~~~~
 For instance, if *&gamma;* = 0.1, *&beta;* = 0.0001, *P(0)* = 25, and *t* = 5, the function would return
 ~~~~
-P(5) = 3.23077
+P(5) = 40.5602
 ~~~~
 As another example, if *&gamma;* = 0.1, *&beta;* = 0.0001, *P(0)* = 40000, and *t* = 5, the function would return
 ~~~~
