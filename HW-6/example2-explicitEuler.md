@@ -14,9 +14,9 @@
 
 **Example/Usage:** This function may be called and the exact solution and error displayed as follows:
 ~~~~
-cout << "u(" << T << ") = " << example2_explicitEuler(n, k, u0, l, f2) << endl;
+cout << "u(" << T << ") = " << example2_explicitEuler(n, k, u0, l, f) << endl;
 cout << "U(" << T << ") = " << cos(T) << endl;
-cout << "Error = " << example2_explicitEuler(n, k, u0, l, f2) - cos(T) << endl;
+cout << "Error = " << example2_explicitEuler(n, k, u0, l, f) - cos(T) << endl;
 ~~~~
 For example, if *n* = 2000, *k* = 0.001, *&lambda;* = -10, *u(0)* = 1, and *f(u,t)* is the *t*-dependent components from the equation the function will return
 ~~~~
