@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Purpose/Description:** This function approximates the solution of *u' = -sin(t)* with *u(0) = 1* at *T = 2*. The exact solution is *u = cos(t)*. As a note, it would appear that the error increases by a factor of ten if *k* is increased by a factor of ten.
+**Purpose/Description:** This function approximates the solution of *u' = -sin(t)* with *u(0) = 1* at *T = 2*. The exact solution is *u = cos(t)*. As a note, it would appear that the error roughly increases by a factor of ten if *k* is increased by a factor of ten.
 
 **Input:** This function takes as input the number of time steps *n*, the step size *k*, the initial condition *u(0)*, and a vector representing *f(u,t)*.
 
