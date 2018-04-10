@@ -24,6 +24,30 @@ u(2) = -1.45252e+76
 U(2) = -0.416147
 Error = -1.45252e+76
 ~~~~
+If *n* = 2050, *k* = 0.000976, *u(0)* = 1, *&lambda;* = -2100, and *f(u,t)* is the *t*-dependent portion from the equation the function will return
+~~~~
+u(2) = -5.88105e+35
+U(2) = -0.416147
+Error = -5.88105e+35
+~~~~
+If *n* = 2105, *k* = 0.00095, *u(0)* = 1, *&lambda;* = -2100, and *f(u,t)* is the *t*-dependent portion from the equation the function will return
+~~~~
+u(2) = -0.416147
+U(2) = -0.416147
+Error = -9.40974e-08
+~~~~
+If *n* = 2500, *k* = 0.0008, *u(0)* = 1, *&lambda;* = -2100, and *f(u,t)* is the *t*-dependent portion from the equation the function will return
+~~~~
+u(2) = -0.416147
+U(2) = -0.416147
+Error = -7.92298e-08
+~~~~
+If *n* = 5000, *k* = 0.0004, *u(0)* = 1, *&lambda;* = -2100, and *f(u,t)* is the *t*-dependent portion from the equation the function will return
+~~~~
+u(2) = -0.416147
+U(2) = -0.416147
+Error = -3.96033e-08
+~~~~
 **Implementation/Code:** The following is the code for example3_explicitEuler():
 ~~~~
 double example3_explicitEuler(int n, double k, double u0, double l, vector<double> f)
