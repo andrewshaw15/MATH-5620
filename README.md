@@ -34,18 +34,35 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
 3. Parabolic Problem Routines
 4. Hyperbolic Problem Routines
 5. Test Problems
-    * [Simple Initial Value Problem - Exact](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-exact)
+    * Simple Initial Value Problem
+        * [Exact](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-exact)
         * [Explicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-explicit-euler)
         * [Implicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-implicit-euler)
         * [Runge-Kutta 2](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-RK2)
         * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-RK4)
         * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-predictor-corrector)
-    * [Logistic Differential Equation - Exact](https://andrewshaw15.github.io/MATH-5620/HW-1/logistic-IVP-exact)
+    * Logistic Differential Equation
+        * [Exact](https://andrewshaw15.github.io/MATH-5620/HW-1/logistic-IVP-exact)
         * [Explicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-explicit-euler)
         * [Implicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-implicit-euler)
         * [Runge-Kutta 2](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-RK2)
         * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-RK4)
         * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-5/logistic-IVP-predictor-corrector)
+    * Example 7.1
+        * [Explicit Euler]()
+        * [Implicit Euler]()
+        * [Predictor-Corrector]()
+        * [Runge-Kutta 4]()
+    * Example 7.2
+        * [Explicit Euler]()
+        * [Implicit Euler]()
+        * [Predictor-Corrector]()
+        * [Runge-Kutta 4]()
+    * Example 7.3
+        * [Explicit Euler]()
+        * [Implicit Euler]()
+        * [Predictor-Corrector]()
+        * [Runge-Kutta 4]()
     * [Spring-Mass-Damper System](https://andrewshaw15.github.io/MATH-5620/HW-1/spring-mass-damper-exact)
     * [Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/simple-elliptic-ODE)
     * [Full Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/full-elliptic-ODE)
