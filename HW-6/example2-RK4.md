@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Purpose/Description:** This function approximates the solution to the equation *u' = &lambda(u - cos(t)) - sin(t)* with *u(0) = 1* at time *T = 2*. The exact solution is *u = cos(t)*.
+**Purpose/Description:** This function approximates the solution to the equation *u' = &lambda;(u - cos(t)) - sin(t)* with *u(0) = 1* at time *T = 2*. The exact solution is *u = cos(t)*.
 
 **Input:** This function takes as input the number of time steps *n*, the time step *k*, the initial condition *u(0)*, the coefficient *&lambda;*, and a vector representing *f(u,t)*. Note that odd indices indicate half-step values while even indices indicate full-step values.
 
