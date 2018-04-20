@@ -32,7 +32,15 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [Gauss-Seidel](https://andrewshaw15.github.io/MATH-5620/HW-4/gauss-seidel)
     * [Conjugate Gradient](https://andrewshaw15.github.io/MATH-5620/HW-4/conjugate-gradient)
 3. Parabolic Problem Routines
+    * Heat Equation
+        * [Explicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation_explicitEuler)
+        * [Implicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation_implicitEuler)
+        * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation_PC)
+        * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation_RK4)
 4. Hyperbolic Problem Routines
+    * [Upwind](https://andrewshaw15.github.io/MATH-5620/HW-8/upwind)
+    * [Lax-Wendroff](https://andrewshaw15.github.io/MATH-5620/HW-8/laxWendorff)
+    * [Beam-Warming](https://andrewshaw15.github.io/MATH-5620/HW-8/beamWarming)
 5. Test Problems
     * Simple Initial Value Problem
         * [Exact](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-exact)
