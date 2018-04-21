@@ -6,7 +6,7 @@
 
 **Language:** C++14
 
-**Purpose/Description:** This function approximates the solution of the heat equation *u<sub>t</sub> = &kappa;u<sub>xx</sub>* with initial condition *u(x,0) = f(x)* and boundary conditions *u(0,t) = g<sub>0</sub>(t)* and *u(L,t) = g<sub>L</sub>(t)* for *t > 0* where *0 <= x <= L*.
+**Purpose/Description:** This function approximates the solution of the heat equation *u<sub>t</sub> = &kappa;u<sub>xx</sub>* with initial condition *u(x,0) = f(x)* and boundary conditions *u(0,t) = g<sub>0</sub>(t)* and *u(L,t) = g<sub>L</sub>(t)* for *t > 0* where *0 &le; x &le; L*.
 
 **Input:** This function takes as input the coefficient *&kappa;*, the right bound *L*, the number of spatial points *i*, the point of interest *X*, the time of interest *T*, the number of time steps *n*, a vector representing the initial condition *f(x)*, and vectors representing the boundary conditions *g<sub>0</sub>(t)* and *g<sub>L</sub>(t)*.
 
