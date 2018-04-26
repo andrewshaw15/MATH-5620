@@ -1,6 +1,6 @@
-# Lax-Wendorff
+# Lax-Wendroff
 
-**Function Name:** laxWendorf
+**Function Name:** laxWendroff
 
 **Author:** Andrew Shaw
 
