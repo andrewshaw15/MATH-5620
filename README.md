@@ -38,8 +38,8 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
         * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation-PC)
         * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation-RK4)
 4. Hyperbolic Problem Routines
-    * [Upwind](https://andrewshaw15.github.io/MATH-5620/HW-8/upwind)
-    * [Lax-Wendroff](https://andrewshaw15.github.io/MATH-5620/HW-8/laxWendroff)
+    * [Upwind](https://andrewshaw15.github.io/MATH-5620/HW-8/upwinding)
+    * [Lax-Wendroff](https://andrewshaw15.github.io/MATH-5620/HW-8/lax-wendroff)
     * [Beam-Warming](https://andrewshaw15.github.io/MATH-5620/HW-8/beamWarming)
 5. Test Problems
     * Simple Initial Value Problem
