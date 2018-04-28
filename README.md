@@ -21,6 +21,10 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [Inverse Power Method](https://andrewshaw15.github.io/MATH-5620/HW-3/inverse-power-method)
     * [Condition Number](https://andrewshaw15.github.io/MATH-5620/HW-3/condition-number)
     * [Explicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-4/explicit-euler)
+    * [Implicit Euler](https://andrewshaw15.github.io/MATH-5620/HW-4/implicit-euler)
+    * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-4/PC)
+    * [Runge-Kutta 2](https://andrewshaw15.github.io/MATH-5620/HW-4/RK2)
+    * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-4/RK4)
 2. Elliptic Problem Routines
     * [Initialize Simple Elliptic ODE](https://andrewshaw15.github.io/MATH-5620/HW-2/initialize-simple-elliptic-ODE)
     * [Thomas Algorithm](https://andrewshaw15.github.io/MATH-5620/HW-2/thomas-algorithm)
@@ -38,9 +42,10 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
         * [Predictor-Corrector](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation-PC)
         * [Runge-Kutta 4](https://andrewshaw15.github.io/MATH-5620/HW-7/heatEquation-RK4)
 4. Hyperbolic Problem Routines
-    * [Upwind](https://andrewshaw15.github.io/MATH-5620/HW-8/upwinding)
-    * [Lax-Wendroff](https://andrewshaw15.github.io/MATH-5620/HW-8/lax-wendroff)
-    * [Beam-Warming](https://andrewshaw15.github.io/MATH-5620/HW-8/beamWarming)
+    * Advection Equation
+        * [Upwind](https://andrewshaw15.github.io/MATH-5620/HW-8/upwinding)
+        * [Lax-Wendroff](https://andrewshaw15.github.io/MATH-5620/HW-8/lax-wendroff)
+        * [Beam-Warming](https://andrewshaw15.github.io/MATH-5620/HW-8/beamWarming)
 5. Test Problems
     * Simple Initial Value Problem
         * [Exact](https://andrewshaw15.github.io/MATH-5620/HW-5/simple-IVP-exact)
@@ -79,4 +84,3 @@ This Software Manual is for MATH 5620 - Numerical Solutions of Differential Equa
     * [Five Point Laplacian - LU Factorization](https://andrewshaw15.github.io/MATH-5620/HW-3/five-point-laplacian-LU-factorization)
     * [Nine Point Laplacian - LU Factorization](https://andrewshaw15.github.io/MATH-5620/HW-3/nine-point-laplacian-LU-factorization)
     * [Five Point Laplacian - Conjugate Gradient](https://andrewshaw15.github.io/MATH-5620/HW-4/five-point-laplacian-conjugate-gradient)
-6. Appendix
