@@ -16,9 +16,9 @@
 ~~~~
 cout << "The solution is: y(" << tFinal << ") = " << explicitEuler(n, t0, y0, tFinal, f) << endl;
 ~~~~
-For example, if *n* = 8, *t0* = 0, *y0* = 1, *tFinal* = 4, and *f(t,y) = -2(y^3) + 12(y^2) - 20y +8.5*, the function would return:
+For example, if *n* = 12, *t0* = 0, *y0* = 0, *tFinal* = 0.006, and *f(t,y) = -1000y + 3000 - 2000e<sup>-t</sup>*, the function would return:
 ~~~~
-The solution is: y(4) = 7
+The solution is: y(0.006) = 1.00973
 ~~~~
 **Implementation/Code:** The following is the code for explicitEuler():
 ~~~~
@@ -26,14 +26,14 @@ double explicitEuler(int n, double t0, double y0, double tFinal, vector<double> 
 {
 	double k = (tFinal - t0) / n; //time step
 
-	double yFinal = y0 + (k * f[0]); //final solution
+	double yFinal = y0 + (k * ((-1000 * y0) + f[0])); //final solution
 
 	for (int i = 1; i < n; i++)
 	{
-		yFinal += (k * f[i]);
+		yFinal += (k * ((-1000 * yFinal) + f[i]));
 	}
 
 	return yFinal;
 }
 ~~~~
-**Last Modified:** 20 Mar 18
+**Last Modified:** 28 Apr 18
