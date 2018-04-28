@@ -29,7 +29,7 @@ double upwind(double a, double L, int i, double X, double T, int n, vector<doubl
 
 	vector<double> U(i - 1);
 	
-  for (int j = 0; j < i - 1; j++)
+  	for (int j = 0; j < i - 1; j++)
 	{
 		U[j] = f[j + 1] - (((a * k) / h) * (f[j + 1] - f[j]));
 	}
